@@ -25,3 +25,25 @@ footer {
   color: #f4f4f4;
   padding: 1rem 2rem;
 }
+
+.team {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1.25rem;
+}
+
+.member {
+  text-align: center;
+}
+
+.member img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.member .name {
+  margin: 0.5rem 0 0;
+  font-weight: bold;
+}
